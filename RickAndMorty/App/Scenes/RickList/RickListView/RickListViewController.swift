@@ -18,6 +18,7 @@ class RickListViewController : UIViewController {
         aTable.translatesAutoresizingMaskIntoConstraints = false
         aTable.delegate = self
         aTable.dataSource = self
+        aTable.register(RickListTableViewCell.self, forCellReuseIdentifier: String(describing: RickListTableViewCell.self))
         view.addSubview(aTable)
         return aTable
     }()
@@ -61,9 +62,11 @@ extension RickListViewController : UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: RickListTableViewCell.self), for: indexPath) as? RickListTableViewCell else {
+            return UITableViewCell()
+        }
         if let character = self.viewModel?.characters[indexPath.row] {
-            cell.textLabel?.text = character.name
+            cell.name = character.name
         }
         return cell
     }

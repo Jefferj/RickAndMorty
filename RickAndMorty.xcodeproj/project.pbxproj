@@ -11,6 +11,7 @@
 		619F019828EDF65400DFFA43 /* RickDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F019728EDF65400DFFA43 /* RickDTO.swift */; };
 		619F019C28EDFAC500DFFA43 /* RickListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F019B28EDFAC500DFFA43 /* RickListViewController.swift */; };
 		619F019E28EE002C00DFFA43 /* RickListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F019D28EE002C00DFFA43 /* RickListViewModel.swift */; };
+		619F01A028EE04BF00DFFA43 /* RickListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F019F28EE04BF00DFFA43 /* RickListTableViewCell.swift */; };
 		61AB021528E77C9800FD8545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AB021428E77C9800FD8545 /* AppDelegate.swift */; };
 		61AB021728E77C9800FD8545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AB021628E77C9800FD8545 /* SceneDelegate.swift */; };
 		61AB021E28E77C9C00FD8545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AB021D28E77C9C00FD8545 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		619F019728EDF65400DFFA43 /* RickDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickDTO.swift; sourceTree = "<group>"; };
 		619F019B28EDFAC500DFFA43 /* RickListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickListViewController.swift; sourceTree = "<group>"; };
 		619F019D28EE002C00DFFA43 /* RickListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickListViewModel.swift; sourceTree = "<group>"; };
+		619F019F28EE04BF00DFFA43 /* RickListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickListTableViewCell.swift; sourceTree = "<group>"; };
 		61AB021128E77C9800FD8545 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AB021428E77C9800FD8545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61AB021628E77C9800FD8545 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		61AB022F28E7896200FD8545 /* RickListView */ = {
 			isa = PBXGroup;
 			children = (
+				619F019F28EE04BF00DFFA43 /* RickListTableViewCell.swift */,
 				619F019B28EDFAC500DFFA43 /* RickListViewController.swift */,
 			);
 			path = RickListView;
@@ -329,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619F01A028EE04BF00DFFA43 /* RickListTableViewCell.swift in Sources */,
 				619F019828EDF65400DFFA43 /* RickDTO.swift in Sources */,
 				619F019C28EDFAC500DFFA43 /* RickListViewController.swift in Sources */,
 				61AB023D28E7934A00FD8545 /* RickListService.swift in Sources */,
