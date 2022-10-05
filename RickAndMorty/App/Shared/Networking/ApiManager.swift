@@ -12,9 +12,9 @@ class ApiManager {
     static let shared = ApiManager()
     
     //GET HTTP
-    func getCall(url: String, success: @escaping (Result<Data?,AFError) -> Void) {
+    func getCall(url: String, success: @escaping (Result<Data?,AFError>) -> Void) {
         AF.request(url).response { response in
-            success(response.response)
+            success(response.result)
         }
     }
 }

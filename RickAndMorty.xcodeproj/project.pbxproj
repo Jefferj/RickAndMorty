@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		619F019628EDF5FA00DFFA43 /* RickListDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F019528EDF5FA00DFFA43 /* RickListDTO.swift */; };
+		619F019828EDF65400DFFA43 /* RickDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F019728EDF65400DFFA43 /* RickDTO.swift */; };
+		619F019C28EDFAC500DFFA43 /* RickListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F019B28EDFAC500DFFA43 /* RickListViewController.swift */; };
+		619F019E28EE002C00DFFA43 /* RickListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F019D28EE002C00DFFA43 /* RickListViewModel.swift */; };
 		61AB021528E77C9800FD8545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AB021428E77C9800FD8545 /* AppDelegate.swift */; };
 		61AB021728E77C9800FD8545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AB021628E77C9800FD8545 /* SceneDelegate.swift */; };
 		61AB021E28E77C9C00FD8545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AB021D28E77C9C00FD8545 /* Assets.xcassets */; };
 		61AB022128E77C9C00FD8545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AB021F28E77C9C00FD8545 /* LaunchScreen.storyboard */; };
-		61AB023728E78A0900FD8545 /* RickListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AB023628E78A0900FD8545 /* RickListViewController.swift */; };
-		61AB023928E78A3100FD8545 /* RickDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AB023828E78A3100FD8545 /* RickDetailViewController.swift */; };
 		61AB023B28E7924A00FD8545 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AB023A28E7924A00FD8545 /* ApiManager.swift */; };
 		61AB023D28E7934A00FD8545 /* RickListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AB023C28E7934A00FD8545 /* RickListService.swift */; };
 		D3150378ACB3106F96673AF9 /* Pods_RickAndMorty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E4E696B9807202F006E72C /* Pods_RickAndMorty.framework */; };
@@ -21,14 +23,16 @@
 /* Begin PBXFileReference section */
 		26E4E696B9807202F006E72C /* Pods_RickAndMorty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickAndMorty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA8F561CC05F94A40B1A51B /* Pods-RickAndMorty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty.release.xcconfig"; path = "Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty.release.xcconfig"; sourceTree = "<group>"; };
+		619F019528EDF5FA00DFFA43 /* RickListDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickListDTO.swift; sourceTree = "<group>"; };
+		619F019728EDF65400DFFA43 /* RickDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickDTO.swift; sourceTree = "<group>"; };
+		619F019B28EDFAC500DFFA43 /* RickListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickListViewController.swift; sourceTree = "<group>"; };
+		619F019D28EE002C00DFFA43 /* RickListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickListViewModel.swift; sourceTree = "<group>"; };
 		61AB021128E77C9800FD8545 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AB021428E77C9800FD8545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61AB021628E77C9800FD8545 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		61AB021D28E77C9C00FD8545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61AB022028E77C9C00FD8545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61AB022228E77C9C00FD8545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61AB023628E78A0900FD8545 /* RickListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickListViewController.swift; sourceTree = "<group>"; };
-		61AB023828E78A3100FD8545 /* RickDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickDetailViewController.swift; sourceTree = "<group>"; };
 		61AB023A28E7924A00FD8545 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		61AB023C28E7934A00FD8545 /* RickListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickListService.swift; sourceTree = "<group>"; };
 		C83A932E99FB2A22F81A05DC /* Pods-RickAndMorty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,9 +137,9 @@
 		61AB022D28E7894F00FD8545 /* RickDetails */ = {
 			isa = PBXGroup;
 			children = (
-				61AB023328E789A900FD8545 /* RickListViewModel */,
-				61AB023228E7899E00FD8545 /* RickListView */,
-				61AB023128E7896D00FD8545 /* RickServiceDetail */,
+				61AB023328E789A900FD8545 /* RickDetailViewModel */,
+				61AB023228E7899E00FD8545 /* RickDetailView */,
+				61AB023128E7896D00FD8545 /* RickDetailService */,
 			);
 			path = RickDetails;
 			sourceTree = "<group>";
@@ -151,7 +155,7 @@
 		61AB022F28E7896200FD8545 /* RickListView */ = {
 			isa = PBXGroup;
 			children = (
-				61AB023828E78A3100FD8545 /* RickDetailViewController.swift */,
+				619F019B28EDFAC500DFFA43 /* RickListViewController.swift */,
 			);
 			path = RickListView;
 			sourceTree = "<group>";
@@ -159,35 +163,37 @@
 		61AB023028E7896700FD8545 /* RickListViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				619F019D28EE002C00DFFA43 /* RickListViewModel.swift */,
 			);
 			path = RickListViewModel;
 			sourceTree = "<group>";
 		};
-		61AB023128E7896D00FD8545 /* RickServiceDetail */ = {
+		61AB023128E7896D00FD8545 /* RickDetailService */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = RickServiceDetail;
+			path = RickDetailService;
 			sourceTree = "<group>";
 		};
-		61AB023228E7899E00FD8545 /* RickListView */ = {
+		61AB023228E7899E00FD8545 /* RickDetailView */ = {
 			isa = PBXGroup;
 			children = (
-				61AB023628E78A0900FD8545 /* RickListViewController.swift */,
 			);
-			path = RickListView;
+			path = RickDetailView;
 			sourceTree = "<group>";
 		};
-		61AB023328E789A900FD8545 /* RickListViewModel */ = {
+		61AB023328E789A900FD8545 /* RickDetailViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = RickListViewModel;
+			path = RickDetailViewModel;
 			sourceTree = "<group>";
 		};
 		61AB023428E789C100FD8545 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				619F019528EDF5FA00DFFA43 /* RickListDTO.swift */,
+				619F019728EDF65400DFFA43 /* RickDTO.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -323,12 +329,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619F019828EDF65400DFFA43 /* RickDTO.swift in Sources */,
+				619F019C28EDFAC500DFFA43 /* RickListViewController.swift in Sources */,
 				61AB023D28E7934A00FD8545 /* RickListService.swift in Sources */,
-				61AB023928E78A3100FD8545 /* RickDetailViewController.swift in Sources */,
+				619F019E28EE002C00DFFA43 /* RickListViewModel.swift in Sources */,
 				61AB021528E77C9800FD8545 /* AppDelegate.swift in Sources */,
 				61AB023B28E7924A00FD8545 /* ApiManager.swift in Sources */,
 				61AB021728E77C9800FD8545 /* SceneDelegate.swift in Sources */,
-				61AB023728E78A0900FD8545 /* RickListViewController.swift in Sources */,
+				619F019628EDF5FA00DFFA43 /* RickListDTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
