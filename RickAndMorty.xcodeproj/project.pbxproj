@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		616AA65728EF6D3A008326D4 /* RickDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AA65628EF6D3A008326D4 /* RickDetailViewController.swift */; };
+		616AA65928EF6D62008326D4 /* RickDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AA65828EF6D62008326D4 /* RickDetailService.swift */; };
+		616AA65B28EF6DCC008326D4 /* RickDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AA65A28EF6DCC008326D4 /* RickDetailViewModel.swift */; };
 		619F019628EDF5FA00DFFA43 /* RickListDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F019528EDF5FA00DFFA43 /* RickListDTO.swift */; };
 		619F019828EDF65400DFFA43 /* RickDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F019728EDF65400DFFA43 /* RickDTO.swift */; };
 		619F019C28EDFAC500DFFA43 /* RickListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F019B28EDFAC500DFFA43 /* RickListViewController.swift */; };
@@ -24,6 +27,9 @@
 /* Begin PBXFileReference section */
 		26E4E696B9807202F006E72C /* Pods_RickAndMorty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickAndMorty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA8F561CC05F94A40B1A51B /* Pods-RickAndMorty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty.release.xcconfig"; path = "Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty.release.xcconfig"; sourceTree = "<group>"; };
+		616AA65628EF6D3A008326D4 /* RickDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickDetailViewController.swift; sourceTree = "<group>"; };
+		616AA65828EF6D62008326D4 /* RickDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickDetailService.swift; sourceTree = "<group>"; };
+		616AA65A28EF6DCC008326D4 /* RickDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickDetailViewModel.swift; sourceTree = "<group>"; };
 		619F019528EDF5FA00DFFA43 /* RickListDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickListDTO.swift; sourceTree = "<group>"; };
 		619F019728EDF65400DFFA43 /* RickDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickDTO.swift; sourceTree = "<group>"; };
 		619F019B28EDFAC500DFFA43 /* RickListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickListViewController.swift; sourceTree = "<group>"; };
@@ -174,6 +180,7 @@
 		61AB023128E7896D00FD8545 /* RickDetailService */ = {
 			isa = PBXGroup;
 			children = (
+				616AA65828EF6D62008326D4 /* RickDetailService.swift */,
 			);
 			path = RickDetailService;
 			sourceTree = "<group>";
@@ -181,6 +188,7 @@
 		61AB023228E7899E00FD8545 /* RickDetailView */ = {
 			isa = PBXGroup;
 			children = (
+				616AA65628EF6D3A008326D4 /* RickDetailViewController.swift */,
 			);
 			path = RickDetailView;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 		61AB023328E789A900FD8545 /* RickDetailViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				616AA65A28EF6DCC008326D4 /* RickDetailViewModel.swift */,
 			);
 			path = RickDetailViewModel;
 			sourceTree = "<group>";
@@ -332,12 +341,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616AA65928EF6D62008326D4 /* RickDetailService.swift in Sources */,
+				616AA65728EF6D3A008326D4 /* RickDetailViewController.swift in Sources */,
 				619F01A028EE04BF00DFFA43 /* RickListTableViewCell.swift in Sources */,
 				619F019828EDF65400DFFA43 /* RickDTO.swift in Sources */,
 				619F019C28EDFAC500DFFA43 /* RickListViewController.swift in Sources */,
 				61AB023D28E7934A00FD8545 /* RickListService.swift in Sources */,
 				619F019E28EE002C00DFFA43 /* RickListViewModel.swift in Sources */,
 				61AB021528E77C9800FD8545 /* AppDelegate.swift in Sources */,
+				616AA65B28EF6DCC008326D4 /* RickDetailViewModel.swift in Sources */,
 				61AB023B28E7924A00FD8545 /* ApiManager.swift in Sources */,
 				61AB021728E77C9800FD8545 /* SceneDelegate.swift in Sources */,
 				619F019628EDF5FA00DFFA43 /* RickListDTO.swift in Sources */,

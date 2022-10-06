@@ -52,7 +52,8 @@ class RickListViewController : UIViewController {
 
 extension RickListViewController : UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Select cell")
+        let vc = RickDetailViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 
